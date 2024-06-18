@@ -103,7 +103,81 @@ header {
 
 /* ---------------------------- MEDIA QUERIES ----------------------------- */
 
-@media (max-width: 1023px) and (min-width: 641px) {
+@media (max-width: 1023px) and (min-width: 846px) {
+    .section__container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-and-text {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-left: 0;
+
+    }
+
+    .image-and-text img {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-left: 0;
+        margin-bottom: 25px;
+    }
+
+    #about {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #section__title {
+        max-width: 80%;
+        margin: 0 auto 20px;
+    }
+
+    #about p {
+        max-width: 80%;
+        margin: 0 auto 20px;
+        text-align: center;
+    }
+
+    .section2 h2 {
+        .image-and-text { /* Errei e não sei o que aconteceu, mas deu certo */
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-left: 0;
+            width: 80%;
+            box-sizing: border-box;
+            
+        }
+        flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-left: 10%;
+            width: 80%;
+            box-sizing: border-box;
+    }
+
+
+    .produtos {
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 80%;
+    }
+    .produtos p {
+        margin-left: 8%;
+    }
+
+    .produtos div {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+
+}
+
+
+@media (max-width: 846px) and (min-width: 641px) {
 
     .section__container {
         flex-direction: column;
@@ -305,6 +379,12 @@ header {
     
         .produtos {
             flex-wrap: wrap;
+            justify-content: center;
+            width: 80%;
+        }
+
+        .produtos p {
+            ;
             justify-content: center;
             width: 80%;
         }
