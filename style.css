@@ -173,3 +173,238 @@ header {
     }
 
 }
+
+
+@media (max-width: 640px) { 
+    .section__container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-and-text {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-left: 0;
+
+    }
+
+    .image-and-text img {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-left: 0;
+        margin-bottom: 25px;
+    }
+
+    #about {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #section__title {
+        max-width: 80%;
+        margin: 0 auto 20px;
+    }
+
+    #about p {
+        max-width: 80%;
+        margin: 0 auto 20px;
+        text-align: center;
+    }
+
+    .section2 h2 {
+        .image-and-text { /* Errei e não sei o que aconteceu, mas deu certo */
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-left: 0;
+            width: 80%;
+            box-sizing: border-box;
+            
+        }
+        flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-left: 10%;
+            width: 80%;
+            box-sizing: border-box;
+    }
+
+
+    .produtos {
+        flex-wrap: wrap;
+        justify-content: center;
+        display: grid;
+        
+
+    }
+
+    .produtos div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    @media (max-width: 1023px) and (min-width: 641px) {
+
+        .section__container {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .image-and-text {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-left: 0;
+    
+        }
+    
+        .image-and-text img {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-left: 0;
+            margin-bottom: 25px;
+        }
+    
+        #about {
+            margin-left: 0;
+            text-align: center;
+        }
+    
+        #section__title {
+            max-width: 80%;
+            margin: 0 auto 20px;
+        }
+    
+        #about p {
+            max-width: 80%;
+            margin: 0 auto 20px;
+            text-align: center;
+        }
+    
+        .section2 h2 {
+            .image-and-text { /* Errei e não sei o que aconteceu, mas deu certo */
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                margin-left: 0;
+                width: 80%;
+                box-sizing: border-box;
+                
+            }
+            flex-direction: column;
+                align-items: center;
+                text-align: center;
+                margin-left: 10%;
+                width: 80%;
+                box-sizing: border-box;
+        }
+    
+    
+        .produtos {
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 80%;
+        }
+    
+        .produtos div {
+            width: 45%;
+            margin-bottom: 20px;
+        }
+    
+    }
+    
+    @media (max-width: 590px) and (min-width: 510px) { 
+        .produtos div p {
+            margin-left: 5%;
+        }
+    }
+
+    @media (max-width: 640px) and (min-width: 590px) { 
+        .produtos div p {
+            margin-left: 8%;
+        }
+    }
+    
+    @media (max-width: 640px) { 
+        .section__container {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .image-and-text {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-left: 0;
+    
+        }
+    
+        .image-and-text img {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-left: 0;
+            margin-bottom: 25px;
+        }
+    
+        #about {
+            margin-left: 0;
+            text-align: center;
+        }
+    
+        #section__title {
+            max-width: 80%;
+            margin: 0 auto 20px;
+        }
+    
+        #about p {
+            max-width: 80%;
+            margin: 0 auto;
+            text-align: center;
+        }
+    
+        .section2 h2 {
+            .image-and-text { /* Errei e não sei o que aconteceu, mas deu certo */
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                margin-left: 0;
+                width: 80%;
+                box-sizing: border-box;
+                
+            }
+            flex-direction: column;
+                align-items: center;
+                text-align: center;
+                margin-left: 10%;
+                width: 80%;
+                box-sizing: border-box;
+        }
+    
+        .produtos img {
+            width: 350px;
+            height: auto;
+        
+        }
+    
+        .produtos {
+            flex-wrap: wrap;
+            justify-content: center;
+            display: grid;
+            display: flex;
+            align-items: center
+        }
+        .produtos p {
+            text-align: center;
+        }
+    }
+}
+
+
+
+
+
+
